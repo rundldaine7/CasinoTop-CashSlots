@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Игровые Автоматы на Реальные Деньги</title>
+</head>
+<body>
+    <h1>Игровые Автоматы на Реальные Деньги 🎰</h1>
+    <p>Крути и богатей прямо сейчас!</p>
+    <button onclick="spin()">Спин!</button>
+    <p id="result">Старт!</p>
+    <script>
+        function spin() {
+            document.getElementById("result").innerText = Math.random() > 0.5 ? "Джекпот!" : "Ещё раз!";
+        }
+    </script>
+</body>
+</html>
